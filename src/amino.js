@@ -172,6 +172,9 @@ css.prepare({
 
 css.prepare({
   property: 'border-color',
+})
+.joinMap('state', states)
+.join({
   name: 'border-',
 })
 .joinMap(colors)

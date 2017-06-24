@@ -190,28 +190,28 @@
 .border-left, .border, .input, .textarea {
   border-left-color: rgba(0, 0, 0, 0.15); }
 
-.border-transparent {
+.active-border-transparent:active, .border-transparent, .focus-border-transparent:focus, .hover-border-transparent:hover {
   border-color: transparent; }
 
-.border-black {
+.active-border-black:active, .border-black, .focus-border-black:focus, .hover-border-black:hover {
   border-color: black; }
 
-.border-white {
+.active-border-white:active, .border-white, .focus-border-white:focus, .hover-border-white:hover {
   border-color: white; }
 
-.border-silver {
+.active-border-silver:active, .border-silver, .focus-border-silver:focus, .hover-border-silver:hover {
   border-color: gainsboro; }
 
-.border-gray {
+.active-border-gray:active, .border-gray, .focus-border-gray:focus, .hover-border-gray:hover {
   border-color: gray; }
 
-.border-blue, .input-focus, .input:focus, .textarea-focus, .textarea:focus {
+.active-border-blue:active, .border-blue, .input-focus, .input:focus, .textarea-focus, .textarea:focus, .focus-border-blue:focus, .hover-border-blue:hover {
   border-color: dodgerblue; }
 
-.border-red {
+.active-border-red:active, .border-red, .focus-border-red:focus, .hover-border-red:hover {
   border-color: crimson; }
 
-.border-green {
+.active-border-green:active, .border-green, .focus-border-green:focus, .hover-border-green:hover {
   border-color: limegreen; }
 
 .circle {
