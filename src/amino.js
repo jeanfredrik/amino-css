@@ -515,6 +515,13 @@ css.prepare({
 })
 .add();
 
+// outline
+css.add({
+  name: 'no-outline',
+  property: 'outline',
+  value: 'none',
+});
+
 // padding
 css.prepare({
   property: 'padding',
@@ -577,11 +584,12 @@ css.prepare({
 css.prepare({
   property: 'text-decoration',
 })
-  .joinMap({
-    underline: 'underline',
-    'no-underline': 'none',
-  })
-  .add();
+.joinMap('state', states)
+.joinMap({
+  underline: 'underline',
+  'no-underline': 'none',
+})
+.add();
 
 // text-transform
 css.prepare({
